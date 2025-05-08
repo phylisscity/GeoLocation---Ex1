@@ -1,0 +1,18 @@
+{
+    "timestamp": "2025-05-08T06:33:47.002251Z",
+    "source_A": "Manual_Input_A",
+    "source_B": "Manual_Input_B",
+    "results": [
+        {
+            "from": {
+                "lat": 42.35036,
+                "lon": -71.096966
+            },
+            "to": {
+                "lat": 42.27019956,
+                "lon": -71.0844307
+            },
+            "distance_km": 8.97
+        }
+    ]
+}

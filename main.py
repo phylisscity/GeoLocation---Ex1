@@ -75,8 +75,14 @@ def main():
     # Step 2: Perform matching
     print("\n🔍 Matching points...")
     results = match_closest_points(arr1, arr2)
+    
+    #step 3: show terminal output for manual input
+    if choice == "3":
+        print("\n📍 Match Results (Printed to Terminal):")
+        for pointA, pointB, dist in results:
+            print(f"From: {pointA} → Closest: {pointB} | Distance: {dist} km")
 
-    # Step 3: Save output
+    # Step 4: Save results to output.json
     save_json(results, source_a=label1, source_b=label2)
 
 
