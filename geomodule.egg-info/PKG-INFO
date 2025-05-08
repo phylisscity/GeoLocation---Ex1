@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: geomodule
+Version: 1.0.0
+Summary: A GPS matching module that finds the closest point using the Haversine formula.
+Author: Phyliss
+Requires-Python: >=3.6
+Requires-Dist: requests
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

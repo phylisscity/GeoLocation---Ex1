@@ -1,8 +1,14 @@
 
 # 🌍 GeoModule — Find Closest GPS Points
 
-**GeoModule** is a Python utility that finds the closest GPS coordinate in one dataset to each point in another.  
-It’s built for developers and analysts working with geographic data — think cities matched to the nearest airport, service requests matched to field offices, etc.
+---
+
+### 📌 Project Summary
+
+**GeoModule** is a developer-focused Python package for geospatial matching.  
+It allows users to match each coordinate in one dataset (e.g., cities) to the nearest coordinate in another dataset (e.g., airports) using the Haversine formula for great-circle distance.  
+
+Designed with flexibility in mind, GeoModule supports CSV, JSON, and manual input formats, and outputs structured JSON files with metadata. It includes both an interactive CLI and a batch-testing runner, making it ideal for integration into data workflows or exploratory analysis pipelines.
 
 ---
 
@@ -27,7 +33,9 @@ GeoLocation---Ex1/
 ├── test\_cases/          # Example datasets and output files
 ├── main.py              # CLI tool for matching coordinates
 ├── test\_runner.py       # Batch testing runner
-├── requirements.txt     # Dependencies (e.g., requests)
+├── setup.py             # Package configuration
+├── pyproject.toml       # PEP 517/518 config
+├── requirements.txt     # Dependencies
 └── README.md            # This file
 
 ````
